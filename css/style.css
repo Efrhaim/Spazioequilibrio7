@@ -1,0 +1,94 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+:root{
+    --primary: #e4e2db;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: Sora, "sans-serif";
+    line-height: 1.7;
+    color: var(--body);
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-4 {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;  
+}
+
+.navbar .logo {
+    width: 70px;
+}
+
+.navbar .nav-link {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.hero {
+    background-image: url(../img/Background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.hero::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 51, 0.8);
+    z-index: -1;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-img1 {
+    background-image: url(../img/Yogapose.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-img2 {
+    background-image: url(../img/Pilatespose.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.col-img3 {
+    background-image: url(../img/Shiatsupose.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.footer-top {
+    padding-bottom: 90px;
+    padding: 90px;
+    background-color: var(--dark);
+
+}
+.footer-top .logo {
+    width: 100px;
+}
