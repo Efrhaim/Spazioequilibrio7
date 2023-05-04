@@ -1,184 +1,319 @@
   @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-:root{
-    --primary: #e4e2db;
-    --dark: #21252f;
-    --body: #888;
-    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
-}
+  :root {
+      --primary: #e4e2db;
+      --dark: #21252f;
+      --body: #888;
+      --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  }
 
-body {
-    font-family: Sora, "sans-serif";
-    line-height: 1.7;
-    color: var(--body);
-}
+  html,
+  body {
+      font-family: Sora, "sans-serif";
+      line-height: 1.7;
+      color: var(--body);
+      overflow-x: hidden;
+      margin: 0px;
+      padding: 0px;
 
-h1,h2,h3,h4,h5,h6,
-.display-4 {
-    color: var(--dark);
-    font-weight: 700;
-}
+  }
 
-a {
-    color: var(--dark);
-    text-decoration: none;  
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .display-4 {
+      color: var(--dark);
+      font-weight: 700;
+  }
 
-.navbar .logo {
-    width: 60px;
-}
+  .title-1st {
+      font-family: 'Poppins',
+          sans-serif;
+      font-weight: 500;
+      font-size: 50px;
+      color: #547670;
+  }
 
-.navbar .nav-link {
-    font-size: 30px;
-    font-weight: 700;
-}
+  .title-2nd {
+      font-family: 'Poppins',
+          sans-serif;
+      font-weight: 700;
+      font-size: 55px;
+      color: #404b48;
+  }
 
-.navbar {
-    box-shadow: var(--box-shadow);
-}
+  .lead {
+      color: #547670;
+  }
 
-.hero {
-    background-image: url(../img/Background.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 2;
-    min-height: 100%;
-    width: 100%;
-}
+  .bg-background {
+      background-image: url(../img/yoga.png);
+      min-height: 100vh;
+      width: 100vw;
+      background-repeat: no-repeat;
+      background-position: 70%;
+      background-size: cover;
 
-.hero::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(21, 20, 51, 0.8);
-    z-index: -1;
-}
+  }
 
-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+  .img-opacity {
+      opacity: 0;
+  }
 
-.col-img1 {
-    background-image: url(../img/Yogapose.webp);
-    background-position: center;
-    background-size: cover; 
-    min-height: auto;
-    
-}
+  a {
+      color: var(--dark);
+      text-decoration: none;
+  }
 
-.col-img2 {
-    background-image: url(../img/Pilatespose.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .navbar-brand img {
+      width: 35px;
+      height: 30px;
+  }
 
-.col-img3 {
-    background-image: url(../img/Shiatsupose.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .navbar .nav-link {
+      font-size: 18px;
+      font-weight: 700;
+      color: #547670;
+  }
 
-.col-img4 {
-    background-image: url(../img/yogapic1.jpg);
-    background-position: unset;
-    background-size: cover;
-    min-height: auto;
-    align-items: center;
-}
+  .navbar {
+      background-color: rgba(0, 0, 0, 0);
+  }
 
-.col-img5 {
-    background-image: url(../img/hand.jpg);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .nav-shadow {
+      box-shadow: var(--box-shadow);
+  }
 
-.col-img6 {
-    background-image: url(../img/middlepic.jpg);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .hero {
+      /* background-image: url(../img/Background.png); */
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+      z-index: 2;
+      min-height: 100%;
+      width: 100%;
+  }
 
-.col-img7 {
-    background-image: url(../img/image7.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .hero::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* background-color: rgba(21, 20, 51, 0.8); */
+      z-index: -1;
+  }
 
-.col-img8 {
-    background-image: url(../img/image8.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
 
-.col-img9 {
-    background-image: url(../img/image9.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .col-img1 {
+      background-image: url(../img/yogaa.png);
+      background-position: center;
+      background-size: cover;
+      min-height: 50vh;
 
-.col-img10 {
-    background-image: url(../img/image10.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  }
 
-.col-img11 {
-    background-image: url(../img/image11.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .col-img2 {
+      background-image: url(../img/pilates.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: 45vh;
+  }
 
-.col-img12 {
-    background-image: url(../img/image12.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .col-img3 {
+      background-image: url(../img/Shiatsu.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: 45vh;
+  }
 
-.col-img13 {
-    background-image: url(../img/image13.webp);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .col-img4 {
+      background-image: url(../img/yogapic1.jpg);
+      background-position: unset;
+      background-size: cover;
+      min-height: auto;
+      align-items: center;
+  }
 
-.col-img14 {
-    background-image: url(../img/image14.jpg);
-    background-position: center;
-    background-size: cover;
-    min-height: auto;
-}
+  .col-img5 {
+      background-image: url(../img/hand.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
 
-.footer-top {
-    padding-bottom: 90px;
-    padding: 90px;
-    background-color: var(--dark);
+  .col-img6 {
+      background-image: url(../img/middlepic.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
 
-}
-.footer-top .logo {
-    width: 60px;
-}
+  .col-img7 {
+      background-image: url(../img/image7.webp);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
 
-.carousel-item img{
-    align-items: center;
-    max-height: 75vh;
-    min-width: 50vw;
-    background-size: cover;
-    width: 100%;
-    opacity: 90%;
-}
+  .col-img8 {
+      background-image: url(../img/image8.webp);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
+
+  .col-img9 {
+      background-image: url(../img/image9.webp);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
+
+  .col-img10 {
+      background-image: url(../img/image10.webp);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
+
+  .col-img11 {
+      background-image: url(../img/image11.webp);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
+
+  .col-img12 {
+      background-image: url(../img/image12.webp);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
+
+  .col-img13 {
+      background-image: url(../img/image13.webp);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
+
+  .col-img14 {
+      background-image: url(../img/image14.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+  }
+
+  .footer-top {
+      padding-bottom: 90px;
+      padding: 90px;
+      background-color: var(--dark);
+
+  }
+
+  .footer-top .logo {
+      width: 60px;
+  }
+
+  .carousel-item img {
+      align-items: center;
+      max-height: 75vh;
+      min-width: 50vw;
+      background-size: cover;
+      width: 100%;
+      opacity: 90%;
+  }
+
+  /* MEDIUM BREAKPOINT */
+  @media (max-width: 768px) {
+      .bg-background {
+          min-height: 30vh;
+      }
+
+      .title-1st {
+          font-family: 'Poppins',
+              sans-serif;
+          font-weight: 500;
+          font-size: 30px;
+          color: #547670;
+      }
+
+      .title-2nd {
+          font-family: 'Poppins',
+              sans-serif;
+          font-weight: 700;
+          font-size: 35px;
+          color: #404b48;
+      }
+
+  }
+
+  /* //MEDIUM BREAKPOINT */
+
+  /* LARGE BREAKPOINT */
+  @media (max-width: 992px) {
+      .col-img1 {
+          background-image: url(../img/yogaa.png);
+          background-position: center;
+          background-size: cover;
+          min-height: auto;
+
+      }
+
+      .col-img2 {
+          background-image: url(../img/pilates.jpg);
+          background-position: center;
+          background-size: cover;
+          min-height: auto;
+      }
+
+      .col-img3 {
+          background-image: url(../img/Shiatsu.jpg);
+          background-position: center;
+          background-size: cover;
+          min-height: auto;
+      }
+
+  }
+
+  /* //LARGE BREAKPOINT */
+
+  /* EXTRA EXTRA LARGE BREAKPOINT */
+  @media (max-width: 1200px) {
+      .col-img1 {
+          background-image: url(../img/yogaa.png);
+          background-position: center;
+          background-size: cover;
+          min-height: auto;
+
+      }
+
+      .col-img2 {
+          background-image: url(../img/pilates.jpg);
+          background-position: center;
+          background-size: cover;
+          min-height: auto;
+      }
+
+      .col-img3 {
+          background-image: url(../img/Shiatsu.jpg);
+          background-position: center;
+          background-size: cover;
+          min-height: auto;
+      }
+
+  }
+
+  /* //EXTRA EXTRA LARGE BREAKPOINT */
