@@ -86,6 +86,84 @@ section {
     min-height: auto;
 }
 
+.col-img4 {
+    background-image: url(../img/yogapic1.jpg);
+    background-position: unset;
+    background-size: cover;
+    min-height: auto;
+    align-items: center;
+}
+
+.col-img5 {
+    background-image: url(../img/hand.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img6 {
+    background-image: url(../img/middlepic.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img7 {
+    background-image: url(../img/image7.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img8 {
+    background-image: url(../img/image8.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img9 {
+    background-image: url(../img/image9.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img10 {
+    background-image: url(../img/image10.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img11 {
+    background-image: url(../img/image11.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img12 {
+    background-image: url(../img/image12.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img13 {
+    background-image: url(../img/image13.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.col-img14 {
+    background-image: url(../img/image14.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
 .footer-top {
     padding-bottom: 90px;
     padding: 90px;
