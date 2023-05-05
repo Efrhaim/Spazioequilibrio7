@@ -81,6 +81,15 @@
       color: #547670;
   }
 
+  .green-text {
+      color: #547670;
+      font-weight: 700;
+  }
+
+  .black-text {
+      color: #404b48;
+  }
+
   .navbar {
       background-color: rgba(0, 0, 0, 0);
   }
