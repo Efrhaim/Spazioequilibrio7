@@ -1,74 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <title>Spazioequilibrio7</title>
-  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Spazioequilibrio7</title>
+</head>
 
-  <body>
-    <!--NAVBAR -->
-    <nav class="nav-shadow navbar navbar-expand-lg py-3 mb-4">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img
-            src="img/Logo.png"
-            alt="Logo"
-            width="30"
-            height="24"
-            class="d-inline-block align-text-top"
-          />
-          Spazioequilibrio
-        </a>
-        <button
-          class="toggler navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body>
+  <!--NAVBAR -->
+  <nav class="nav-shadow navbar navbar-expand-lg py-3 mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+        Spazioequilibrio
+      </a>
+      <button class="toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="YogaPage.html" class="nav-link">Yoga</a>
-            </li>
-            <li class="nav-item">
-              <a href="PilatesPage.html" class="nav-link">Pilates</a>
-            </li>
-            <li class="nav-item">
-              <a href="ShiatsuPage.html" class="nav-link">Shiatsu</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--//NAVBAR -->
-
-    <!--HERO -->
-    <div class="hero vh-50 d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <h1 class="green-text">POSTPARTUM YOGA</h1>
-        </div>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="YogaPage.html" class="nav-link">Yoga</a>
+          </li>
+          <li class="nav-item">
+            <a href="PilatesPage.html" class="nav-link">Pilates</a>
+          </li>
+          <li class="nav-item">
+            <a href="ShiatsuPage.html" class="nav-link">Shiatsu</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <!--//HERO-->
+  </nav>
+  <!--//NAVBAR -->
 
-    <!--YOGA-->
+  <!--HERO -->
+  <div class="hero vh-50 d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <h1 class="green-text">POSTPARTUM YOGA</h1>
+      </div>
+    </div>
+  </div>
+  <!--//HERO-->
+
+  <!--YOGA-->
+  <div data-aos="fade-left">
     <section class="row w-100" id="Yoga">
       <div class="col-lg-6 col-img11"></div>
       <div class="col-lg-6 py-4">
@@ -105,9 +92,11 @@
         </div>
       </div>
     </section>
-    <!--//YOGA-->
+  </div>
+  <!--//YOGA-->
 
-    <!-- Practice of Hatha Yoga-->
+  <!-- Practice of Hatha Yoga-->
+  <div data-aos="fade-right">
     <section class="row w-100" id="Pilates">
       <div class="col-lg-6 py-4">
         <div class="container">
@@ -146,8 +135,10 @@
       </div>
       <div class="col-lg-6 col-img12"></div>
     </section>
+  </div>
 
-    <!--BENEFITS-->
+  <!--BENEFITS-->
+  <div data-aos="fade-up">
     <section class="hero vh-75 d-flex align-items-center">
       <div class="container">
         <div class="row">
@@ -161,15 +152,17 @@
 
           <p>Here are 7 of the many benefits you may notice :</p>
 
-          <!--Insert Bullets
-                    Prevents incontinence by strengthening the pelvic floor
-                    Relieves tension in the back and shoulders by realigning the spine
-                    Acts on hormonal balance
-                    Counteracts insomnia and helps to relax
-                    It reduces stress and anxiety from motherhood while also preventing postpartum depression and baby blues
-                    Create a deep connection between mom and baby
-                    It allows you to regain confidence with your body   
-                    -->
+          <ul>
+            <li> Prevents incontinence by strengthening the pelvic floor</li>
+            <li> Relieves tension in the back and shoulders by realigning the spine</li>
+            <li> Acts on hormonal balance</li>
+            <li> Counteracts insomnia and helps to relax</li>
+            <li> It reduces stress and anxiety from motherhood while also preventing postpartum depression and baby
+              blues
+            </li>
+            <li> Create a deep connection between mom and baby</li>
+            <li> It allows you to regain confidence with your body</li>
+          </ul>
 
           <p>
             One of the benefits not listed but appreciated by all new mothers is
@@ -181,37 +174,42 @@
             decide whether you prefer to take lessons alone or with your child.
           </p>
 
-          <h3>
+          <h4>
             A little break from your new routine to focus on yourself, in
             harmony with motherhood.
-          </h3>
+          </h4>
         </div>
       </div>
     </section>
-    <!--BENEFITS-->
+  </div>
+  <!--BENEFITS-->
 
-    <!--FOOTER-->
-    <footer>
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="logo" src="img/Logo.png" alt="Logo" />
-            </div>
-            <div class="col-md-2">
-              <h5></h5>
-            </div>
+  <!--FOOTER-->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="logo" src="img/Logo.png" alt="Logo" />
+          </div>
+          <div class="col-md-2">
+            <h5></h5>
           </div>
         </div>
       </div>
-    </footer>
-    <!--//FOOTER-->
+    </div>
+  </footer>
+  <!--//FOOTER-->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!----AOS ANIMATION JS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
